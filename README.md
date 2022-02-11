@@ -1,2 +1,2 @@
 # landingpage
-Landing Page example using flexbox
+Restaurant landing Page example using flexbox
