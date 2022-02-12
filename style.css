@@ -11,22 +11,24 @@ body {
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
 
 .hero{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .hero-main-text{
-    font-size: 42px;
+    font-size: 30px;
 }
-.hero-secondary-text{
-    font-size: 18px;
-    color: #e5e7eb;
+
+.hero-img{
+    width: 50%;
+    height: auto;
+    min-width: 15rem;
+    border-radius: 1rem;
 }
 
 .button{
@@ -42,12 +44,6 @@ body {
     font-weight: bold;
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-  }
 
 .info{
     display: flex;
@@ -60,6 +56,11 @@ img {
     flex-direction: column;
 }
 
+.dishes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .dishes img{
     width: 200px;
     height: 200px;
@@ -69,7 +70,9 @@ img {
     margin: 5px 20px 0px 20px;
 }
 
-
+.caption{
+    display: block;
+}
 
 .quote, .signup{
     flex: 1;
@@ -78,6 +81,7 @@ img {
     font-style: italic;
     background-color: #1F2937;
 }
+
 
 .footer{
     background-color: #1F2937;
